@@ -2,6 +2,7 @@
   "name": "hexlet-js",
   "version": "1.0.0",
   "description": "My project on Hexlet",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/YU-K/hexlet-js/issues"
   },
-  "homepage": "https://github.com/YU-K/hexlet-js#readme"
+  "homepage": "https://github.com/YU-K/hexlet-js#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
